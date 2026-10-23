@@ -19,6 +19,7 @@ All times ET. Owner in brackets.
 
 ## Nov 12, 00:00: jam starts
 
+- [ ] Submission form open: every field (incl. custom questions) copied into this file [4esv]
 - [ ] UE project created **after** 00:00 (CI rejects `Content/`/`Source/` before then)
 - [ ] First dev log post
 
