@@ -8,6 +8,16 @@ what Rule 7(h) allows ahead of time: AI tools, agent configs, MCP settings, prom
 libraries and scripts. **No game content (gameplay, levels, art) until then.**
 Epic may ask to see this repo's version-control history to check compliance.
 
+Agents start at [AGENTS.md](AGENTS.md). Rules digest: [RULES.md](RULES.md). Targets: [GOALS.md](GOALS.md).
+
+## Submitting
+
+```sh
+tools/devlog.sh > devlog.md                     # Glass Box dev log, grouped by day (ET)
+git ls-tree -r --name-only \
+  "$(git rev-list -1 --before=2026-11-12T05:00:00Z main)"  # pre-jam files to declare
+```
+
 ## Dates (ET is UTC-5 after Nov 1)
 
 | What | When |
