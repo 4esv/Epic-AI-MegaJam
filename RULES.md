@@ -41,6 +41,10 @@ rules are left out.
   unrealengine.com/branding. That includes real brands appearing in AI-generated art. [8, 15d]
 - Sourced assets (Fab, packs, free sounds) need a license we actually hold and must be listed
   in the submission. They aren't scored. AI-generated content does not count as sourced. [15c]
+- **This repo is public.** Most asset licenses (Fab's included) allow sharing source files only
+  with collaborators or through a private repo. Committing licensed packs here may count as
+  redistribution, which is an IP breach and a disqualification risk. Check the license before
+  committing any sourced asset. [15a, fab.com/cla]
 - If Epic believes something infringes copyright, the entry is disqualified. [15g]
 
 ## Scoring [9]
