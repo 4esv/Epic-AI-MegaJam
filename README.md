@@ -22,7 +22,7 @@ Epic may ask to see this repo's version-control history to check compliance.
 
 - [ ] Every member: 18+, active Epic account that is not Cabined, resident outside the
       Restricted Jurisdictions (incl. Brazil, Italy, Russia, Turkey)
-- [ ] Choose **one** of UE or UEFN, not both
+- [x] Choose **one** of UE or UEFN, not both: **UE** (see [GOALS.md](GOALS.md))
 - [ ] UE: packaged dev build (Win/macOS/Android/iOS), zip `TeamName_GameName.zip` < 1 GB
       (or butler). Unpackaged projects are not accepted.
 - [ ] UEFN: a **private version code** created before the deadline (not a live or playtest code)
