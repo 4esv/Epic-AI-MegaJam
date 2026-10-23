@@ -13,6 +13,7 @@ TZ=America/New_York git log main --first-parent --reverse ${1:+--since="$1"} \
     for (i = 1; i <= n; i++) {
       l = line[i]; sub(/\r$/, "", l); gsub(/<!--.*-->/, "", l); sub(/^[-*] +/, "", l)
       if (l ~ /^## /) { on = (l == "## Devlog"); continue }
+      if (on && l !~ /[^[:space:]]/ && text != "") on = 0 # first paragraph only
       if (on && l ~ /[^[:space:]]/) text = text (text ? " " : "") l
     }
     if (text == "") next
