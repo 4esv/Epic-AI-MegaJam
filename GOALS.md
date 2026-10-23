@@ -1,7 +1,7 @@
 # Goals
 
 Engine: **Unreal Engine** (decided). UEFN-only prizes (Walkie-Talkie, UEFN Best Overall) are out.
-Team Owner: **dentedprinter** (agreed by all three). Rules digest: [RULES.md](RULES.md).
+Team Owner: **dentedprinter**. Rules digest: [RULES.md](RULES.md).
 
 A submission can win **one main prize + one modifier** (Rule 13). We aim to be eligible
 for every modifier listed here and let the judges pick which one.
