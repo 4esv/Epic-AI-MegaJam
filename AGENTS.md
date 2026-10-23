@@ -13,6 +13,8 @@ Hard constraints: [RULES.md](RULES.md). Targets: [GOALS.md](GOALS.md).
 | `Config/`, `Plugins/` | Engine config, MCP and other plugins |
 | `tools/check.sh` | Repo guards; CI runs them, run locally before pushing |
 | `tools/devlog.sh` | Compiles the public dev log from merged PRs |
+| `tools/declare.sh` | Lists pre-jam files for the submission's declaration |
+| `JAMDAY.md` | Launch and submission checklist |
 | `rules/` | Official Rules PDF |
 
 ## Work

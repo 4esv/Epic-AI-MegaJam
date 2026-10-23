@@ -12,10 +12,11 @@ Agents start at [AGENTS.md](AGENTS.md). Rules digest: [RULES.md](RULES.md). Targ
 
 ## Submitting
 
+Run [JAMDAY.md](JAMDAY.md) top to bottom.
+
 ```sh
-tools/devlog.sh > devlog.md                     # Glass Box dev log, grouped by day (ET)
-git ls-tree -r --name-only \
-  "$(git rev-list -1 --before=2026-11-12T05:00:00Z main)"  # pre-jam files to declare
+tools/devlog.sh  > devlog.md    # Glass Box dev log, grouped by day (ET)
+tools/declare.sh > declare.md   # pre-jam files to declare (Rule 7h)
 ```
 
 ## Dates (ET is UTC-5 after Nov 1)
