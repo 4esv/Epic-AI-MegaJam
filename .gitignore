@@ -1,0 +1,28 @@
+# Unreal build output
+Binaries/
+Build/
+DerivedDataCache/
+Intermediate/
+Saved/
+Plugins/*/Binaries/
+Plugins/*/Intermediate/
+
+# Per-user editor content
+Content/Developers/
+Content/Collections/
+
+# IDE
+.vs/
+.vscode/
+.idea/
+*.sln
+*.xcworkspace
+*.code-workspace
+
+# Packaged builds go to itch, not git
+Packaged/
+*.zip
+
+# Local
+.DS_Store
+.env*
